@@ -1,0 +1,39 @@
+.container-functional {
+  padding-bottom: 94px;
+}
+
+.list-function {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  height: 294px;
+  margin-top: 50px;
+}
+
+.item-function {
+  display: block;
+  position: absolute;
+  /* z-index: -1; */
+}
+
+.title-function-item {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.142;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  padding-left: auto;
+  padding-right: auto;
+  background: rgba(47, 48, 58, 0.8);
+  position: relative;
+  width: 370px;
+  height: 70px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 110%);
+  /* z-index: -1; */
+}

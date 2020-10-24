@@ -1,0 +1,40 @@
+.navigation-link {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  color: var(--main-colour);
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+}
+
+.navigation-link:hover {
+  color: var(--accent-colour);
+}
+
+.navigation-link:focus {
+  color: var(--accent-colour);
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.list-navigation {
+  display: flex;
+  margin-left: 93px;
+}
+
+.navigation-link {
+  display: flex;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.elements-navigation:not(:last-child) {
+  margin-right: 50px;
+}

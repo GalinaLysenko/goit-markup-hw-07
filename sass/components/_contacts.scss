@@ -1,0 +1,64 @@
+.contact {
+  margin-right: 0px;
+}
+
+.address-list {
+  display: flex;
+  align-items: center;
+  margin-left: 305px;
+}
+
+.elements-address {
+  display: flex;
+  align-items: center;
+}
+
+.elements-address .link {
+  display: flex;
+  align-items: center;
+}
+
+.elements-address:not(:last-child) {
+  margin-right: 30px;
+}
+
+.elements-address-svg {
+  margin-right: 10px;
+}
+
+.address-tell,
+.address-email {
+  display: flex;
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--second-colour);
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.elements-address-svg {
+  fill: var(--second-colour);
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.elements-address:hover .elements-address-svg,
+.elements-address:hover .address-email,
+.elements-address:hover .address-tell {
+  fill: var(--accent-colour);
+  color: var(--accent-colour);
+}
+
+.address-email:focus .elements-address-svg,
+.address-tell:focus .elements-address-svg,
+.address-email:focus,
+.address-tell:focus {
+  fill: var(--accent-colour);
+  color: var(--accent-colour);
+}

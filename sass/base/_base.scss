@@ -1,0 +1,29 @@
+*,
+*::before,
+*::after {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  /* width: 1600px; */
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  text-decoration-color: none;
+}
+
+.address {
+  font-style: normal;
+}
+
+.img {
+  display: block;
+}
