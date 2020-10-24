@@ -85,11 +85,11 @@
 }
 
 .social-list-link:hover {
-  background-color: var(--accent-colour);
+  background-color: $accent-colour;
 }
 
 .social-list-link:focus {
-  background-color: var(--accent-colour);
+  background-color: $accent-colour;
 }
 
 .contact-form {
@@ -137,7 +137,7 @@
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   color: #ffffff;
-  background-color: var(--accent-colour);
+  background-color: $accent-colour;
 }
 
 .contact-form-button .icon-send {

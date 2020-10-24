@@ -92,7 +92,7 @@
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--main-colour);
+  color: $main-colour;
 }
 
 .project-description {
@@ -100,6 +100,6 @@
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.03em;
-  color: var(--second-colour);
+  color: $second-colour;
   margin-top: 4px;
 }

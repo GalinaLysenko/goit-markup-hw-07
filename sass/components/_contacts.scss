@@ -29,20 +29,20 @@
 .address-tell,
 .address-email {
   display: flex;
-  font-family: var(--main-font);
+  font-family: $main-font;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--second-colour);
+  color: $second-colour;
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .elements-address-svg {
-  fill: var(--second-colour);
+  fill: $second-colour;
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -51,14 +51,14 @@
 .elements-address:hover .elements-address-svg,
 .elements-address:hover .address-email,
 .elements-address:hover .address-tell {
-  fill: var(--accent-colour);
-  color: var(--accent-colour);
+  fill: $accent-colour;
+  color: $accent-colour;
 }
 
 .address-email:focus .elements-address-svg,
 .address-tell:focus .elements-address-svg,
 .address-email:focus,
 .address-tell:focus {
-  fill: var(--accent-colour);
-  color: var(--accent-colour);
+  fill: $accent-colour;
+  color: $accent-colour;
 }

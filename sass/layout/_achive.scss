@@ -22,7 +22,7 @@
   line-height: 1.142;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--main-colour);
+  color: $main-colour;
 }
 
 .achive-description {
@@ -30,7 +30,7 @@
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  color: var(--second-colour);
+  color: $second-colour;
   margin-top: 10px;
 }
 

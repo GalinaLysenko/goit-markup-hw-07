@@ -23,18 +23,18 @@
           <a class="logo link" lang="en" href=""
             ><span class="logo-accent">Web</span>Studio</a
           >
-          <ul class="list list-navigation">
-            <li class="elements-navigation">
+          <ul class="list navigation-list">
+            <li class="navigation-elements">
               <a class="link navigation-link" href="./index.html"
                 ><span class="current-page">Студия</span></a
               >
             </li>
-            <li class="elements-navigation">
+            <li class="navigation-elements">
               <a class="link navigation-link" href="./portfolio.html"
                 >Портфолио</a
               >
             </li>
-            <li class="elements-navigation">
+            <li class="navigation-elements">
               <a class="link navigation-link contact" href="">Контакты</a>
             </li>
           </ul>
@@ -75,39 +75,39 @@
             <button class="close-button" data-modal-close>
             </button>
 
-            <form action="#" method="post" class="modal-description">
+            <form action="#" method="post" class="modal-form">
               <!-- Разметка элементов модального окна -->
               <b class="title">
                 Оставьте свои данные, мы вам перезвоним
                 </b>
-              <div class="modal-field">
-                <label for="user-name" class="modal-align"> Имя </label>
+              <div class="modal-form-field">
+                <label for="user-name" class="modal-form-align"> Имя </label>
                 <input type="text" name="user-name" id="user-name" class="user-align">
-                <svg width=18 height=18 class="icon-user">
+                <svg width=18 height=18 class="user-icon">
                   <use href="./img/sprite.svg#icon-person-black"></use>
                 </svg>
               </div>
-              <div class="modal-field">
-                <label for="user-phone" class="modal-align"> Телефон </label>
+              <div class="modal-form-field">
+                <label for="user-phone" class="modal-form-align"> Телефон </label>
                 <input type="tel" name="user-phone" id="user-phone" class="user-align"/>
-                <svg width=18 height=18 class="icon-user">
+                <svg width=18 height=18 class="user-icon">
                   <use href="./img/sprite.svg#icon-phone-black"></use>
                 </svg>
               </div>
-              <div class="modal-field">
-                <label for="user-email" class="modal-align"> Почта </label>
+              <div class="modal-form-field">
+                <label for="user-email" class="modal-form-align"> Почта </label>
                 <input type="email" name="user-email" id="user-email" class="user-align"/>
-                <svg width=18 height=18 class="icon-user">
+                <svg width=18 height=18 class="user-icon">
                   <use href="./img/sprite.svg#icon-email-black"></use>
                 </svg>
               </div>
-              <div class="modal-field">
-                <label class="modal-align"> Комментарий </label>
-                  <textarea name="comment" placeholder="Введите текст" class="modal-comment"></textarea>
+              <div class="modal-form-field">
+                <label class="modal-form-align"> Комментарий </label>
+                  <textarea name="comment" placeholder="Введите текст" class="modal-form-comment"></textarea>
               </div>
               <label class="checkbox">
                  <input type="checkbox" class="checkbox-input"/>
-                 <span class="checkbox__img"></span>
+                 <span class="checkbox-img"></span>
                  <span class="checkbox-title">Соглашаюсь с рассылкой и принимаю <span ><a href="" class="checkbox-link">Условия договора</a></span></span>
               </label>
               <button type="submit" class="button">Отправить</button>

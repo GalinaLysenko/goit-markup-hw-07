@@ -10,7 +10,7 @@
 }
 
 .current-page {
-  color: var(--accent-colour);
+  color: $accent-colour;
 }
 
 .current-page::after {
@@ -20,7 +20,7 @@
   left: 0;
   width: 100%;
   height: 4px;
-  background: var(--accent-colour);
+  background: $accent-colour;
   border-radius: 2px;
   right: 0;
   margin: 0 auto;
