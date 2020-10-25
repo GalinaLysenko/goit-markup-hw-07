@@ -1,60 +1,53 @@
-.container-team {
-  padding-top: 94px;
-  padding-bottom: 94px;
-  background-color: #f5f4fa;
-}
+.team {
+  &-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
 
-.team-list {
-  display: flex;
-  justify-content: center;
-  margin-top: 50px;
-}
+  &-img {
+    display: block;
+  }
 
-.team-item:not(:last-child) {
-  margin-right: 30px;
+  &-item {
+    background-color: #ffffff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+    &-last {
+      background-color: #ffffff;
+    }
+  }
+
+  &-description {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  &-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.187;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $main-colour;
+    margin-bottom: 10px;
+  }
+
+  &-position {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.187;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $second-colour;
+    margin-bottom: 16px;
+  }
 }
 
 .container-team .title {
   display: block;
-}
-
-.team-img {
-  display: block;
-}
-
-.team-item {
-  background-color: #ffffff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-}
-
-.team-item-last {
-  background-color: #ffffff;
-}
-
-.team-description {
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-.team-name {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.187;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: $main-colour;
-}
-
-.team-name {
-  margin-bottom: 10px;
-}
-.team-position {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.187;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: $second-colour;
-  margin-bottom: 16px;
 }

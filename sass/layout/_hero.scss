@@ -10,12 +10,12 @@
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
-}
 
-.container-hero .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  & .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .title-hero {

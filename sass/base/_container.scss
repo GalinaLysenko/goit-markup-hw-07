@@ -4,9 +4,25 @@
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+
+  &-achive,
+  &-customers {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+
+  &-functional {
+    padding-bottom: 94px;
+  }
+
+  &-team {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: #f5f4fa;
+  }
 }
 
-.main-container {
+.portfolio-container {
   padding-top: 94px;
   padding-bottom: 94px;
 }

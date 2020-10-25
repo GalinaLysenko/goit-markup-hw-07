@@ -1,64 +1,56 @@
-.contact {
-  margin-right: 0px;
-}
+.address {
+  &-list {
+    display: flex;
+    align-items: center;
+    margin-left: 305px;
+  }
 
-.address-list {
-  display: flex;
-  align-items: center;
-  margin-left: 305px;
-}
+  &-elements {
+    display: flex;
+    align-items: center;
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+    &-svg {
+      margin-right: 10px;
+      fill: $second-colour;
+      transition-property: color;
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
 
-.elements-address {
-  display: flex;
-  align-items: center;
-}
+    &:hover .address-elements-svg,
+    &:hover .address-email,
+    &:hover .address-tell {
+      fill: $accent-colour;
+      color: $accent-colour;
+    }
+  }
 
-.elements-address .link {
-  display: flex;
-  align-items: center;
-}
+  & .address-elements .link {
+    display: flex;
+    align-items: center;
+  }
 
-.elements-address:not(:last-child) {
-  margin-right: 30px;
-}
-
-.elements-address-svg {
-  margin-right: 10px;
-}
-
-.address-tell,
-.address-email {
-  display: flex;
-  font-family: $main-font;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: $second-colour;
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.elements-address-svg {
-  fill: $second-colour;
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.elements-address:hover .elements-address-svg,
-.elements-address:hover .address-email,
-.elements-address:hover .address-tell {
-  fill: $accent-colour;
-  color: $accent-colour;
-}
-
-.address-email:focus .elements-address-svg,
-.address-tell:focus .elements-address-svg,
-.address-email:focus,
-.address-tell:focus {
-  fill: $accent-colour;
-  color: $accent-colour;
+  &-tell,
+  &-email {
+    display: flex;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: $second-colour;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:focus .address-elements-svg,
+    &:focus .address-elements-svg,
+    &:focus,
+    &:focus {
+      fill: $accent-colour;
+      color: $accent-colour;
+    }
+  }
 }
