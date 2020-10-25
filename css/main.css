@@ -786,6 +786,10 @@ body {
   display: flex;
 }
 
+.footer-social-list .social-list-svg {
+  fill: #ffffff;
+}
+
 .footer-subscription {
   margin-left: 92px;
   margin-top: 12px;
@@ -797,10 +801,6 @@ body {
 
 .footer-social-list .social-list-link:hover, .footer-social-list .social-list-link:focus {
   background-color: #2196f3;
-}
-
-.footer-social-list .social-list-svg {
-  fill: #ffffff;
 }
 
 .contact-form {
